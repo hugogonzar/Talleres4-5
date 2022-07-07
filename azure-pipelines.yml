@@ -63,9 +63,9 @@ stages:
     
     - task: dependency-check-build-task@6
       inputs:
-       projectName: 'Talleres4-5'
+         projectName: 'Talleres4-5'
        scanPath: 'target/*.jar'
        format: 'HTML'failOnCVSS: '10'
-      displayName: SCA
+      
       
       
