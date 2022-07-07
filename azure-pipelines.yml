@@ -61,6 +61,5 @@ stages:
          format: 'HTML'
        displayName: SCA
     
-  String password =“1233647474”;  
-      
+     
      
