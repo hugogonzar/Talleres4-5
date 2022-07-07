@@ -34,8 +34,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 class VetController {
-        private String password =“1233647474”;
+        
 	private final VetRepository vets;
+	
+	private String password =“1233647474”;
 
 	public VetController(VetRepository clinicService) {
 		this.vets = clinicService;
