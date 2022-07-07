@@ -46,7 +46,7 @@ stages:
         inputs:
           pollingTimeoutSec: '300'
         displayName: 'Publish Analysis Results'
-        Strig password=1234
+        Strig password: 1234
     
   #- task: sonarcloud-buildbreaker@2
   #  inputs:
