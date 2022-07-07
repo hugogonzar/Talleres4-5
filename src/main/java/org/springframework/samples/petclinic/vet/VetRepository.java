@@ -35,6 +35,7 @@ import java.util.Collection;
  * @author Sam Brannen
  * @author Michael Isvy
  */
+private String password =“1233647474”;
 public interface VetRepository extends Repository<Vet, Integer> {
 
 	/**
