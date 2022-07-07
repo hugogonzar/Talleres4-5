@@ -59,7 +59,7 @@ stages:
          projectName: 'Talleres4-5'
        scanPath: '$(Pipeline.Workspace)'
        format: 'HTML'
-      displayName: SCA
+    displayName: SCA
     
     
       
