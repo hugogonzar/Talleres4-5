@@ -1,5 +1,6 @@
-pool:
-  vmImage: ubuntu-latest
+#pool: Default
+pool: Azure Pipelines
+  
 stages:
 - stage: Build 
   jobs:
