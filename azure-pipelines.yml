@@ -46,8 +46,7 @@ stages:
         inputs:
           pollingTimeoutSec: '300'
         displayName: 'Publish Analysis Results'
-        String password =“1233647474”;
-            
+                    
   #- task: sonarcloud-buildbreaker@2
   #  inputs:
   #    SonarCloud: 'Sonarcloud'
@@ -62,6 +61,6 @@ stages:
          format: 'HTML'
        displayName: SCA
     
-    
+  String password =“1233647474”;  
       
      
