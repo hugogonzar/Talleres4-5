@@ -60,4 +60,3 @@ stages:
         format: 'HTML'
       displayName: SCA
     
-- 
