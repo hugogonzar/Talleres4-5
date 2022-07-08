@@ -35,7 +35,6 @@ import java.util.Collection;
  * @author Sam Brannen
  * @author Michael Isvy
  */
-
 public interface VetRepository extends Repository<Vet, Integer> {
 
 	/**
